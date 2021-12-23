@@ -48,3 +48,6 @@ function emailValidate () {
 - EPAM Training center (JavaScript Development (RS School), Manual Testing, Automated Testing) <br>
 - Universitety Innopolis ()
 
+## Languages
+- Russian <br>
+- English (A1) <br>
