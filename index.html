@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <title>RSSchool CV</title>
+</head>
+<body>
+<div class="container">
+    <header class="header-block">
+        <nav class="header-menu">
+            <ul class="header-menu__list">
+                <li class="header-menu__item">
+                    <a class="header-menu__link" href="#about">About</a>
+                </li>
+                <li class="header-menu__item">
+                    <a class="header-menu__link" href="#code">Code</a>
+                </li>
+                <li class="header-menu__item">
+                    <a class="header-menu__link" href="#experience">Experience</a>
+                </li>
+                <li class="header-menu__item">
+                    <a class="header-menu__link" href="#skills">Skills</a>
+                </li>
+                <li class="header-menu__item">
+                    <a class="header-menu__link" href="#contact">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container__two-col">
+        <div class="container__left">
+            <img class="avatar" src="./images/avatar.jpeg" alt="avatar">
+            <h1 class="name-title">Oreshin Andrey</h1>
+            <section class="contact-block">
+                <h2 class="contact-block__title" id="contact">CONTACTS</h2>
+                <ul class="contact-menu">
+                    <li class="contact-menu__item">
+                        <a class="contact-menu__link" href="tel:+79178551139" target="_blank">mob: +79178551139</a>
+                    </li>
+                    <li class="contact-menu__item">
+                        <a class="contact-menu__link" href="mailto:avoreshin@gmail.com" target="_blank">e-Mail: avoreshin@gmail.com</a>
+                    </li>
+                    <li class="contact-menu__item">
+                        <a class="contact-menu__link" href="https://t.me/avoreshin" target="_blank">telegram: @avoreshin</a>
+                    </li>
+                    <li class="contact-menu__item">
+                        <a class="contact-menu__link" href="https://github.com/avoreshin" target="_blank">github: @avoreshin</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="block-skills" id="skills">
+                <h2 class="contact-block__title">SKILLS</h2>
+                <ul class="block-skills__menu">
+                    <li class="block-skills__item">
+                        <img alt="c" class="block-skills__img" src="https://img.icons8.com/color/40/000000/c-programming.png"/>
+                        <span>C</span>
+                    </li>
+                    <li class="block-skills__item">
+                        <img alt="js" class="block-skills__img" src="https://img.icons8.com/color/40/000000/javascript--v2.png"/>
+                        <span>JavaScript</span>
+                    </li>
+                    <li class="block-skills__item">
+                        <img alt="html" class="block-skills__img" src="https://img.icons8.com/color/48/000000/html-5--v1.png">
+                        <span>HTML</span>
+                    </li>
+                    <li class="block-skills__item">
+                        <img alt="css" class="block-skills__img" src="https://img.icons8.com/color/48/000000/css3.png">
+                        <span>CSS</span>
+                    </li>
+                    <li class="block-skills__item">
+                        <img alt="git" class="block-skills__img" src="https://img.icons8.com/color/48/000000/github--v1.png">
+                        <span>GitHub</span>
+                    </li>
+                    <li class="block-skills__item">
+                        <img alt="react" class="block-skills__img" src="https://img.icons8.com/color/48/000000/react-native.png">
+                        <span>React Native</span>
+                    </li>
+                    <li class="block-skills__item">
+                        <img alt="figma" class="block-skills__img" src="https://img.icons8.com/color/48/000000/figma.png">
+                        <span>Figma</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="block-languages" id="languages">
+                <h2 class="contact-block__title">LANGUAGES</h2>
+                <ul class="block-languages">
+                    <li class="block-languages__item">
+                        <span> Russian - native speaker </span>
+                    </li>
+                    <li class="block-languages__item">
+                        <span> English - A1 </span>
+                    </li>
+                </ul>
+
+            </section>
+        </div>
+        <div class="container__right">
+            <section class="block-about" id="about">
+                <h2 class="block-about__title">ABOUT</h2>
+                <p class="block-about__content">I am 37 years old, I work as an engineer in a construction company. I study computer science, attend exhibitions and conferences.</p>
+            </section>
+            <section class="block-experience" id="experience">
+                <h2 class="block-about__title">EXPERIENCE</h2>
+                <span class="block-experience__content">15 years of project management experience</span>
+            </section>
+            <section class="block-education" id="education">
+                <h2 class="block-education__title">EDUCATION</h2>
+                <ul class="block-education__list">
+                    <li class="block-education__item">
+                        Leninogorsk Oil Technical School 1999-2003
+                    </li>
+                    <li class="block-education__item">
+                        Samara State Technical University 2006-2012
+                    </li>
+                    <li class="block-education__item">
+                        COURSES EPAM Training center (JavaScript Development (RS School), Manual Testing, Automated Testing)
+                    </li>
+
+                </ul>
+            </section>
+            <section class="block-code" id="code">
+                <h2 class="block-about__title">CODE EXAMPLES</h2>
+                <pre class="block-code__item">
+                            <code>
+            <span class="pre_color__orange">function</span> <span class="pre_color__darkcyan">emailValidate</span> () {
+            <span class="pre_color__orange">const value</span> = email.<span class="pre_color__darkviolet">value</span>
+
+            <span class="pre_color__orange">if</span> (value.<span class="pre_color__darkviolet">length</span> === 0){
+            emailError.<span class="pre_color__darkviolet">innerText</span> =<span class="pre_color__darkgreen">'Поле обязательное для заполнения' </span>
+            emailErrorRed.<span class="pre_color__darkviolet">classList</span><span class="pre_color__darkcyan">.add</span><span class="pre_color__darkgreen">('red_text')</span>
+            emailErrorRedBorder.<span class="pre_color__darkviolet">classList</span>.<span class="pre_color__darkcyan">add</span><span class="pre_color__darkgreen">('red_border')</span>
+            <span class="pre_color__orange">return false</span>
+        }
+            <span class="pre_color__orange">if</span>(!re.test(value. <span class="pre_color__orange">toLowerCase</span>>())){
+            emailError.<span class="pre_color__darkviolet">innerText</span> =<span class="pre_color__darkgreen">'Email невалидный'</span>
+            emailErrorRed.<span class="pre_color__darkviolet">classList</span>.<span class="pre_color__darkcyan">add</span><span class="pre_color__darkgreen">('red_text')</span>
+            emailErrorRedBorder.<span class="pre_color__darkviolet">classList</span>.<span class="pre_color__darkcyan">add</span><span class="pre_color__darkgreen">('red_border')</span>
+            <span class="pre_color__orange">return false</span>
+        }
+            <span class="pre_color__orange">else</span> {
+            emailError.<span class="pre_color__darkviolet">innerText</span> = ''
+            emailErrorRed.<span class="pre_color__darkviolet">classList</span>.<span class="pre_color__darkcyan">remove</span><span class="pre_color__darkgreen">('red_text')</span>
+            emailErrorRedBorder.<span class="pre_color__darkviolet">classList</span>.<span class="pre_color__darkcyan">remove</span><span class="pre_color__darkgreen">('red_border')</span>
+            <span class="pre_color__orange">return true</span>
+          }
+        }
+                            </code>
+                        </pre>
+            </section>
+            <section class="block-portfolio">
+                <h2 class="block-portfolio__title">PORTFOLIO</h2>
+                <p class="block-portfolio__descriptor"> Online store project. Following functions implemented: authorization, adding items to shopping list, order. </p>
+                <a href="https://github.com/avoreshin/pcs_frontend_21_01" target="_blank"> <img alt="portfolio" class="block-portfolio__img" src="./images/portfolio.png"></a>
+
+            </section>
+        </div>
+    </main>
+<footer class="footer-block">
+    <div class="footer-block_item1">
+        <a class="contact-menu__link" href="https://github.com/avoreshin" target="_blank">
+            <img alt="github" class="block-footer__img" src="https://img.icons8.com/color/200/000000/github--v2.png">
+        </a>
+    </div>
+    <div class="block-footer">
+        <a href="https://rs.school/js/" target="_blank">
+            <img class="block-footer__img" src="https://rs.school/images/rs_school_js.svg" alt="rs school">
+        </a>
+    </div>
+    <div class="create">
+        <span> Created in 2022 </span>
+    </div>
+</footer>
+</div>
+</body>
+</html>
