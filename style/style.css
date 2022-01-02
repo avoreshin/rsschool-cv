@@ -1,0 +1,225 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    display: inline;
+    text-decoration: none;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+header {
+    background-color: #994636;
+    padding:0 20px;
+}
+.header-menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.header-menu__list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu__item{
+    position: relative;
+    margin-right: 20px
+}
+.header-menu__item:hover::before {
+    width: 100%;
+}
+.header-menu__item:hover {
+    cursor: pointer
+}
+.header-menu__link{
+    color: #fff;
+}
+.header-menu__link:hover{
+    color: #CA907E;
+    border-bottom: #994636 solid  2px  ;
+}
+.container__two-col{
+    display: flex;
+    width: 100%;
+}
+.container__left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background: #EAF4D3;
+}
+.container__right {
+    width: 70%;
+}
+.avatar{
+    width: 280px;
+    height: 280px;
+    margin: 10px auto;
+    background: aliceblue;
+    border-radius: 50%;
+    border: 5px solid cadetblue;
+}
+.name-title{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: cadetblue;
+    text-align: center;
+}
+.contact-block{
+    /*display: inline-block;*/
+}
+.contact-block__title{
+    font-size: 25px;
+    color: white;
+    background: #CA907E;
+    text-align: end;
+    padding-right: 20px;
+}
+.contact-menu__item{
+    text-align: start;
+    padding-left: 40px;
+    line-height: 25px;
+}
+.contact-menu__link {
+    color: cadetblue;
+}
+.block-skills__menu{
+    margin-bottom: 30px;
+}
+.block-skills__item {
+    display: flex;
+    vertical-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: cadetblue;
+    margin-left: 20px;
+}
+.block-skills__img{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+.block-languages{
+    margin-bottom: 50px;
+}
+.block-languages__item{
+    margin-left: 20px;
+    font-size: 20px;
+    color: cadetblue;
+}
+.container__right{
+    border-right: 2px solid #EAF4D3;
+}
+.block-about {
+    padding-bottom: 20px;
+}
+.block-about__content {
+    font-size: 20px;
+    color: #333;
+    margin-left: 50px;
+}
+.block-about__title{
+    margin-top: 0;
+    display: flex;
+    color: #CA907E;
+    line-height: 50px;
+    justify-content: end;
+    padding-right: 20px;
+    background: beige;
+}
+.block-experience {
+    padding-bottom: 20px;
+}
+.block-experience__content{
+    font-size: 20px;
+    color: #333333;
+    margin-left: 50px;
+}
+.block-education{
+
+}
+.block-education__list{
+    list-style: circle;
+    margin:20px 30px;
+}
+.block-education__item{
+    font-size: 20px;
+    color: #333333;
+    line-height: 40px;
+    margin-left: 30px;
+}
+.block-education__title{
+    margin-top: 0;
+    display: flex;
+    color: #CA907E;
+    line-height: 50px;
+    justify-content: end;
+    padding-right: 20px;
+    background: beige;
+}
+.block-code__item{
+    display: flex;
+}
+.pre_color__orange {
+    color: orange;
+}
+.pre_color__darkviolet{
+    color: darkviolet;
+}
+.pre_color__darkgreen {
+    color: darkgreen;
+}
+.pre_color__darkcyan {
+    color: darkcyan;
+}
+.block-portfolio__title {
+    margin-top: 0;
+    display: flex;
+    color: #CA907E;
+    line-height: 50px;
+    justify-content: end;
+    padding-right: 20px;
+    background: beige;
+}
+.block-portfolio__img{
+    display: flex;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+.block-portfolio__descriptor {
+    margin:0 70px 10px;
+    font-size: 20px;
+    color: #333333;
+}
+.footer-block {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 20px;
+    width: 960px;
+    color: white;
+    background: #CA907E;
+}
+.block-footer__img {
+    height: 100px;
+    margin-left: 100px;
+}
+.create {
+    font-size: 26px;
+    line-height: 100px;
+    vertical-align: center;
+}
