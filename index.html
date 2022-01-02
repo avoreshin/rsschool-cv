@@ -99,6 +99,64 @@
             </section>
         </div>
         <div class="container__right">
+            <section class="block-about" id="about">
+                <h2 class="block-about__title">ABOUT</h2>
+                <p class="block-about__content">I am 37 years old, I work as an engineer in a construction company. I study computer science, attend exhibitions and conferences.</p>
+            </section>
+            <section class="block-experience" id="experience">
+                <h2 class="block-about__title">EXPERIENCE</h2>
+                <span class="block-experience__content">15 years of project management experience</span>
+            </section>
+            <section class="block-education" id="education">
+                <h2 class="block-education__title">EDUCATION</h2>
+                <ul class="block-education__list">
+                    <li class="block-education__item">
+                        Leninogorsk Oil Technical School 1999-2003
+                    </li>
+                    <li class="block-education__item">
+                        Samara State Technical University 2006-2012
+                    </li>
+                    <li class="block-education__item">
+                        COURSES EPAM Training center (JavaScript Development (RS School), Manual Testing, Automated Testing)
+                    </li>
+
+                </ul>
+            </section>
+            <section class="block-code" id="code">
+                <h2 class="block-about__title">CODE EXAMPLES</h2>
+                <pre class="block-code__item">
+                            <code>
+            <span class="pre_color__orange">function</span> <span class="pre_color__darkcyan">emailValidate</span> () {
+            <span class="pre_color__orange">const value</span> = email.<span class="pre_color__darkviolet">value</span>
+
+            <span class="pre_color__orange">if</span> (value.<span class="pre_color__darkviolet">length</span> === 0){
+            emailError.<span class="pre_color__darkviolet">innerText</span> =<span class="pre_color__darkgreen">'Поле обязательное для заполнения' </span>
+            emailErrorRed.<span class="pre_color__darkviolet">classList</span><span class="pre_color__darkcyan">.add</span><span class="pre_color__darkgreen">('red_text')</span>
+            emailErrorRedBorder.<span class="pre_color__darkviolet">classList</span>.<span class="pre_color__darkcyan">add</span><span class="pre_color__darkgreen">('red_border')</span>
+            <span class="pre_color__orange">return false</span>
+        }
+            <span class="pre_color__orange">if</span>(!re.test(value. <span class="pre_color__orange">toLowerCase</span>>())){
+            emailError.<span class="pre_color__darkviolet">innerText</span> =<span class="pre_color__darkgreen">'Email невалидный'</span>
+            emailErrorRed.<span class="pre_color__darkviolet">classList</span>.<span class="pre_color__darkcyan">add</span><span class="pre_color__darkgreen">('red_text')</span>
+            emailErrorRedBorder.<span class="pre_color__darkviolet">classList</span>.<span class="pre_color__darkcyan">add</span><span class="pre_color__darkgreen">('red_border')</span>
+            <span class="pre_color__orange">return false</span>
+        }
+            <span class="pre_color__orange">else</span> {
+            emailError.<span class="pre_color__darkviolet">innerText</span> = ''
+            emailErrorRed.<span class="pre_color__darkviolet">classList</span>.<span class="pre_color__darkcyan">remove</span><span class="pre_color__darkgreen">('red_text')</span>
+            emailErrorRedBorder.<span class="pre_color__darkviolet">classList</span>.<span class="pre_color__darkcyan">remove</span><span class="pre_color__darkgreen">('red_border')</span>
+            <span class="pre_color__orange">return true</span>
+          }
+        }
+                            </code>
+                        </pre>
+            </section>
+            <section class="block-portfolio">
+                <h2 class="block-portfolio__title">PORTFOLIO</h2>
+                <p class="block-portfolio__descriptor"> Online store project. Following functions implemented: authorization, adding items to shopping list, order. </p>
+                <a href="https://github.com/avoreshin/pcs_frontend_21_01" target="_blank"> <img alt="portfolio" class="block-portfolio__img" src="./images/portfolio.png"></a>
+
+            </section>
         </div>
     </main>
 <footer class="footer-block">
