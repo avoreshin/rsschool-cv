@@ -25,3 +25,13 @@ int	ft_isalpha(int c)
 	return (0);
 }  
 ``` 
+
+## Experience
+15 years of project management experience <br>
+## Education
+- Samara State Technical University <br>
+- EPAM Training center (JavaScript Development (RS School), Manual Testing, Automated Testing) <br>
+
+## Languages
+- Russian <br>
+- English (A1) <br>
