@@ -15,3 +15,13 @@ I study computer science, attend exhibitions and conferences.
 - Version control: Git (remote service GitHub).<br>
 - Figma(for web development) <br>
 - Editors: Webstorm, VSCode. <br>
+## Code Examples
+```c 
+#include "libft.h"
+int	ft_isalpha(int c)
+{
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+		return (1);
+	return (0);
+}  
+``` 
